@@ -1,0 +1,101 @@
+img {
+  object-fit: cover;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  object-position: top;
+  border-radius: 50%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #d4a373;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #606c38;
+}
+
+h1, h2 {
+  font-family: "Poetsen One", sans-serif;
+  color: #003049;
+  line-height: 40px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  h1 {
+    color: red;
+  }
+}
+
+.btn-green {
+    background-color: #588157;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 13px;
+}
+
+.btn-green:hover {
+  background-color: orange;
+  transition: 0.2s;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+
+}
+/* a:hover {
+  color: #e3d5ca;
+  text-decoration: none;
+  transition: 0.2s;
+} */
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  background-color: #588157;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 13px;
+}
+
+.list-inline:hover {
+  background-color: orange;
+  transition: 0.2s;
+}
+
+.card {
+  background: #fefae0 ;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 20px auto;
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgba(0,0,0,1);
+}
+
+/* .btn-icon {
+  background-color: #588157;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 13px;
+} */
